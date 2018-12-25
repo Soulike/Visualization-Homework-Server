@@ -1,0 +1,20 @@
+{
+  "name": "visualization-homework-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//Soulike/Visualization-Homework-Server.git"
+  },
+  "author": "soulike",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-router": "^7.4.0",
+    "xlsx": "^0.14.1"
+  }
+}
