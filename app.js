@@ -2,11 +2,13 @@ const Koa = require('koa');
 const router = require('./router');
 const app = new Koa();
 
+const PORT = 8004;
+
 app
     .use(router.routes())
     .use(router.allowedMethods());
 
-app.listen(2333, () =>
+app.listen(PORT, () =>
 {
-    console.log('Server is running on port 2333');
+    console.log(`Server is running on port ${PORT}`);
 });
