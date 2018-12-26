@@ -3,7 +3,7 @@ const router = new Router();
 const {readXlsxAsync} = require('./functions');
 const xlsx = require('xlsx');
 
-router.get('/getCO2Data', async (ctx, next) =>
+router.get('/server/getCO2Data', async (ctx, next) =>
 {
     try
     {
